@@ -38,10 +38,7 @@ if 'options' not in st.session_state:
 if 'selectbox_options' not in st.session_state:
   st.session_state.selectbox_options = list(st.session_state.options.keys())
 
-# Sidebar for option selection and adding new options
-with st.sidebar:
-  selected_option = st.selectbox("Choose a User:",
-                                 st.session_state.selectbox_options)
+
 
   # Input for adding new user
   new_user_input = st.text_input("Add New User")
