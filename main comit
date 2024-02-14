@@ -33,9 +33,6 @@ st.title("LlamaIndex 🦙 Multi-Tenancy RAG")
 if 'options' not in st.session_state:
   st.session_state.options = {"Jerry": "Jerry"}
 
-if 'selectbox_options' not in st.session_state:
-  st.session_state.selectbox_options = list(st.session_state.options.keys())
-
 
 
   # Input for adding new user
