@@ -3,7 +3,6 @@ import sys
 import streamlit as st
 from utils import *
 from llama_index.retrievers import VectorIndexRetriever
-from llama_index import get_response_synthesizer
 
 if 'OPENAI_API_KEY' not in os.environ:
   sys.stderr.write("""
