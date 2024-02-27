@@ -2,7 +2,7 @@ import os
 import sys
 import streamlit as st
 from utils import *
-from llama_index.retrievers import VectorIndexRetriever
+
 
 if 'OPENAI_API_KEY' not in os.environ:
   sys.stderr.write("""
