@@ -37,7 +37,6 @@ if 'options' not in st.session_state:
 # Example of using the selected option's code
 selected_user = st.session_state.options.get(selected_option, "Jerry")
 
-# Create an Empty Index for the first time
 if not os.path.exists("storage"):
   os.mkdir("storage")
   create_index()
