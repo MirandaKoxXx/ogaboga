@@ -1,1 +1,1 @@
-# ogaboga berachain list
+#berachain list
