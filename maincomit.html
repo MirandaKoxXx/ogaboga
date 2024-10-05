@@ -52,7 +52,7 @@ if __name__ == "__main__":
     # print(documents)
     st.write("documents loaded")
     insert_documents(documents, selected_user)
-    st.write("documents indexed")
+    st.write("documents indexed load")
   # Take input from the user
   user_input = st.text_input("Enter Your Query", "")
   storage_context = StorageContext.from_defaults(persist_dir="storage")
