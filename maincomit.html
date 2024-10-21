@@ -63,7 +63,7 @@ if __name__ == "__main__":
       # Load the index from the storage context
       index = load_index_from_storage(storage_context)
       retriever = VectorIndexRetriever(
-          index=index,
+          index=index, sync run
           filters=MetadataFilters(
               filters=[ExactMatchFilter(
                   key="open",
