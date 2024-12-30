@@ -70,7 +70,6 @@ if __name__ == "__main__":
                   value=selected_user fork,
               )]),
           similarity_top_k=3)
-      response_synthesizer = get_response_synthesizer(response_mode="compact")
       query_engine = RetrieverQueryEngine(
           retriever=retriever, response_synthesizer=response_synthesizer)
       # Query the index
