@@ -36,9 +36,6 @@ if not os.path.exists("storage"):
   os.mkdir("storage")
   create_index()
 
-# This is the main function running the app
-if __name__ == "__main__":
-
   # Upload document option
   uploaded_file = st.file_uploader("Upload a document",
                                    type=["pdf", "txt", "docx"])
